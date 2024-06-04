@@ -30,7 +30,7 @@ const Weather = () => {
                 <button type="button" onClick={handleSearch}>Search</button>
             </div>
             <div className='wrapper'>
-                {loading ? (<p>Loading data…</p>) : (
+                {loading ? (<p>Loading data...</p>) : (
                     <>
                         {data && (
                             <div className='weather-cards'>
